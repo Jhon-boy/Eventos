@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Mouse from './container/Mouse';
+
+import Events from './container/events';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>My EVENTS</p>
-        <Mouse></Mouse>
+  
+        <Events></Events>
       </header>
     </div>
   );
